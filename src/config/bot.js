@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made with ❤️ for chefs",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Glaze",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -156,11 +156,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "donut",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "donuts",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "ⓞ,
     },
 
     // Starting balance for new users.
